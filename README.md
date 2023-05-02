@@ -2,11 +2,6 @@
 
 MVP Architecture is one of the most popular architecture to develop a maintanable and managable codebase. We are developing a sample `Weater Forecast` Android App with `MVP Architecture` using `Kotlin` language and `Retrofit` network calling library.
 
- For simplicity, in this project I don't use any dependency injection framework. With the same project concept there is [another repository](https://github.com/hasancse91/weather-app-android-mvp-dagger) where I implemented `Dagger 2 dependency injection library`. You can check that repository after this one.
-
-**There is another repository for the same project in `MVVM Architecture.` Check MVVM repository [from here](https://github.com/hasancse91/weather-app-android-mvvm).**
-
-<img src="https://raw.githubusercontent.com/hasancse91/weather-app-android-mvp-architecture/master/data/screenshot_1.png" width="250" height="444" />
 
 ### Project Description
 We will develop a weather forecast Android Application with MVP architecture. The UI will be as like as above screenshot. There is a `Spinner` with some `City` name. After selection a city user need to hit the `View Weather` button. Then App will send request to Open Weather web API and show the weather information in the UI.
